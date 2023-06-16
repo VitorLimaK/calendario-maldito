@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+body{
+  text-align: center;
+  position:center;
+}
+    html{
+      text-align: center;
+      position: center;
+      display: center;
+
+    }
+    table {
+      border-collapse: collapse;
+      position: center;
+    }
+    
+    td {
+      border: 1px solid rgb(255, 255, 255);
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border-collapse: collapse;
+      padding: 10px;
+      cursor: pointer;
+     background-color: black;
+     color: white;
+     position: right
+  ;
+    }
+    
+    .selected {
+      background-color: rgb(255, 0, 212);
+
+    }
+
+    
+  
+    
+  </style>
+</head>
+<body>
+  <h2>Calendário</h2>
+  <table>
+    <thead>
+    <tr>
+
+        <th>Dom</th>
+        <br>
+          <th>Seg</th>
+            <th>Ter</th>
+              <th>Quar</th>
+                 <th>Qui</th>
+             <th>Sex</th>
+          <th>Sab</th>
+        <th>Dom</th>
+
+    </thead>
+     <tbody>
+  <div>
+    <label for="date-input">Selecione uma data:</label>
+    <input type="date" id="date-input">
+    <button onclick="changeColor()">Alterar cor</button>
+  </div>
+  
+  <div></div>
+
+  
+  <table id="calendar">
+    <tbody>
+      <tr>
+        <td id="cell0"></td>
+        <td id="cell0"></td>
+        <td id="cell1">1</td>
+        <td id="cell2">2</td>
+        <td id="cell3">3</td>
+        <td id="cell4">4</td>
+        <td id="cell5">5</td>
+      </tr>
+      <tr>
+        <td id="cell6">6</td>
+        <td id="cell7">7</td>
+        <td id="cell8">8</td>
+        <td id="cell9">9</td>
+        <td id="cell10">10</td>
+        <td id="cell11">11</td>
+        <td id="cell12">12</td>
+      </tr>
+      <tr>
+        <td id="cell13">13</td>
+        <td id="cell14">14</td>
+        <td id="cell15">15</td>
+        <td id="cell16">16</td>
+        <td id="cell17">17</td>
+        <td id="cell18">18</td>
+        <td id="cell19">19</td>
+      </tr>
+      <tr>
+        <td id="cell20">20</td>
+        <td id="cell21">21</td>
+        <td id="cell22">22</td>
+        <td id="cell23">23</td>
+        <td id="cell24">24</td>
+        <td id="cell25">25</td>
+        <td id="cell26">26</td>
+      </tr>
+      <tr>
+        <td id="cell27">27</td>
+        <td id="cell28">28</td>
+        <td id="cell29">29</td>
+        <td id="cell30">30</td>
+        <td id="cell31">31</td>
+        
+        <td></td>
+        <td></td>
+      
+      </tr>
+    </tbody>
+  </table>
+  <script src="seu_script.js"></script>
+</div>
+
+</body>
+</html>
